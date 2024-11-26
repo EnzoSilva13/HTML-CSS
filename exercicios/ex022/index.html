@@ -3,10 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EXEMPLO</title>
+    <title>Teste de imagem de fundo</title>
+    <style>
+        div.quadrado {
+            display: inline-block;
+            border: 1px solid black;
+            border-radius:10px;
+            background-color: lightblue;
+            width: 300px;
+            height: 300px;
+        }
+        div#q1 {
+            background-color: aqua;
+        }
+        div#q2 {
+            background-color: linear-gradient(to bottom, yellow,red);
+        }
+        div#q3 {
+            background-image: url('imagens/pattern1.jpg');
+        }
+    
+        
+    </style>
 </head>
 <body>
-    <h1>exemplo de teste</h1>
+  <div class="quadrado" id="q1"></div>
+  <div class="quadrado" id="q2"></div>
+  <div class="quadrado" id="q3"></div>
     
 </body>
 </html>
