@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    background: black url(images/paisagemdefundo-redimensionada.jpg) center center no-repeat;
+    background-size: 300vh;
+    background-attachment: fixed;
+}
+header {
+    color: white;
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+    outline: 10px solid black;
+    border: 10px solid black;
+
+    text-align: center;
+}
+main {
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    outline: 10px solid white;
+    border: 10px solid white;
+}
+div#fotoum{
+    color: white;
+    background: white url(images/caminhao-redimensionada.jpg) center center no-repeat fixed ;
+    background-size: 200vh;
+}
+div#fotodois {
+    color: wheat;
+    background: white url(images/estrada-redimensionada.jpg) center center no-repeat fixed;
+    background-size: 200vh;
+}
+footer {
+    background-color: black;
+    
+    padding: 6px 3px;
+    border: 1px solid black;
+    color: white;
+    margin: -10px;
+    text-align: center;
+   
+
+    
+
+}
