@@ -28,12 +28,12 @@ main {
     outline: 10px solid white;
     border: 10px solid white;
 }
-div#fotoum{
+section#fotoum{
     color: white;
     background: white url(images/caminhao-redimensionada.jpg) center center no-repeat fixed ;
     background-size: 200vh;
 }
-div#fotodois {
+section#fotodois {
     color: wheat;
     background: white url(images/estrada-redimensionada.jpg) center center no-repeat fixed;
     background-size: 200vh;
