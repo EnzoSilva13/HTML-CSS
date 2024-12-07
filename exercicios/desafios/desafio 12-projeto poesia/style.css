@@ -4,7 +4,7 @@
 
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 800px;
+    max-width: 1000px;
     min-width: 320px;
     margin: auto;
     background: black url(images/paisagemdefundo-redimensionada.jpg) center center no-repeat;
@@ -20,6 +20,14 @@ header {
     border: 10px solid black;
 
     text-align: center;
+    
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p{
+    padding-bottom: 50px;
 }
 main {
     background-color: white;
@@ -28,15 +36,24 @@ main {
     outline: 10px solid white;
     border: 10px solid white;
 }
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
 section#fotoum{
     color: white;
-    background: white url(images/caminhao-redimensionada.jpg) center center no-repeat fixed ;
+    background: rgb(0, 0, 0) url(images/caminhao-redimensionada.jpg) center center no-repeat fixed ;
     background-size: 200vh;
 }
 section#fotodois {
-    color: wheat;
-    background: white url(images/estrada-redimensionada.jpg) center center no-repeat fixed;
+    color: rgb(0, 0, 0);
+    background: rgb(0, 0, 0) url(images/estrada-redimensionada.jpg) center center no-repeat fixed;
     background-size: 200vh;
+}
+section#image > p{
+    width: 400px;
+    background-color: black;
 }
 footer {
     background-color: black;
@@ -50,4 +67,12 @@ footer {
 
     
 
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
 }
