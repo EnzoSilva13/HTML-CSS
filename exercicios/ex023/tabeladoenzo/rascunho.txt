@@ -5,5 +5,5 @@ time            estaduais - brasileiro - copa do Brasil - sulamericana - liberta
 
 corinthians -      30          7               3                 0            1            2          1
 sao paulo           22          6                 1              1            3             3          0 
-palmeiras             26        12               3               0              3           0  	        2
+palmeiras             26        12               4              0              3           0  	        2
 santos                22         8             1                0              3            2	       1
