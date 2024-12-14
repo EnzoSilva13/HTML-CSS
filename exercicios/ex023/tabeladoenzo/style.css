@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr {
+    
+    & .Corinthians {
+       
+    }
+}
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
