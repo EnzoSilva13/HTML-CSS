@@ -8,11 +8,16 @@
         table{
             border-collapse: collapse;
             width: 500px;
-
+            text-align: center;
+            margin:auto
         }
         td,th {
             border: 1px solid black;
             padding: 5px;
+        }
+        thead, tfoot{
+            background-color: rgb(42, 43, 43);
+
         }
        
     </style>
@@ -20,14 +25,14 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
-        <header id="header">
+        <thead >
            <tr>
            <th>Capital</th>
            <th>PIB per capita</th>
           
 
-        </header>
-        <body>
+        </thead>
+        <tbody>
            <tr id="saopaulo">
             <td>São Paulo</td>     
             <td>66 872,84	</td>
@@ -53,15 +58,15 @@
             <td>Manaus</td>       
             <td>45 782,75</td>
           
-        </body>
-        <footer id="footer">
+        </tbody>
+        <tfoot >
             <tr>
                 <th>media do PIB per capita</th>
                 <td>60.057,882</td>
             </tr>
             
 
-        </footer>
+        </tfoot>
     </table>
     
 </body>
