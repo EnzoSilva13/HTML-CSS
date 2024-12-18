@@ -9,54 +9,89 @@
             border-collapse: collapse;
             width: 500px;
             text-align: center;
-            margin:auto
+            margin:auto;
+            position:relative;
         }
         td,th {
             border: 1px solid black;
             padding: 5px;
         }
+        thead > tr > th{
+            position: sticky;
+            top:-1px;
+            background-color: gray;
+        }
         thead, tfoot{
             background-color: rgb(42, 43, 43);
+            color:white
 
         }
+        tbody >tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        p{
+            text-align: center;
+        }
+
        
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>PIB per capita das capitais brasileiras</caption>
         <thead >
            <tr>
-           <th>Capital</th>
-           <th>PIB per capita</th>
+           <th scope="col">Capital</th>
+           <th scope="col">PIB per capita</th>
+           </tr>
           
 
         </thead>
         <tbody>
            <tr id="saopaulo">
-            <td>São Paulo</td>     
-            <td>66 872,84	</td>
+                <td>São Paulo</td>     
+                <td>66 872,84	</td>
            
            </tr>
            <tr id="riodejaneiro">
-             <td>Rio de Janeiro</td>       
-             <td>53 078,23</td>
+                <td>Rio de Janeiro</td>       
+                <td>53 078,23</td>
             
            </tr>
            <tr id="brasilia">
-            <td>Brasília</td>          
-            <td>92 737,27</td>
+                <td>Brasília</td>          
+                <td>92 737,27</td>
             
             
            </tr>
            <tr id="belohorizonte">
-            <td>Belo Horizonte</td>
-            <td>41 818,32</td>
+                <td>Belo Horizonte</td>
+                <td>41 818,32</td>
             
            </tr>
            <tr id="manaus">
-            <td>Manaus</td>       
-            <td>45 782,75</td>
+                <td>Manaus</td>       
+                <td>45 782,75</td>
+
+            <tr id="curitiba">
+                <td>Curitiba</td>
+                <td>49 907,02</td>
+            </tr>
+            <tr id="fortaleza">
+                <td>Fortaleza</td>
+                <td>27 164,45</td>
+            </tr>
+           
+            
+           
+            
           
         </tbody>
         <tfoot >
@@ -68,6 +103,10 @@
 
         </tfoot>
     </table>
-    
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint architecto quisquam maiores alias voluptate fugit ex, officia eligendi perspiciatis hic totam soluta ab dolor? Soluta unde voluptatibus illum error Lorem ipsum dolor sit amet consectetur adipisicing elit. Id incidunt distinctio ipsa perferendis animi eos nobis amet rem eveniet porro, inventore dolores! Incidunt blanditiis, possimus impedit quis id culpa natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum in, distinctio voluptatum labore odio mollitia numquam necessitatibus quibusdam dolorem, officiis libero ad dicta ullam asperiores veritatis quasi. Dolores, velit architecto!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint architecto quisquam maiores alias voluptate fugit ex, officia eligendi perspiciatis hic totam soluta ab dolor? Soluta unde voluptatibus illum error Lorem ipsum dolor sit amet consectetur adipisicing elit. Id incidunt distinctio ipsa perferendis animi eos nobis amet rem eveniet porro, inventore dolores! Incidunt blanditiis, possimus impedit quis id culpa natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum in, distinctio voluptatum labore odio mollitia numquam necessitatibus quibusdam dolorem, officiis libero ad dicta ullam asperiores veritatis quasi. Dolores, velit architecto!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint architecto quisquam maiores alias voluptate fugit ex, officia eligendi perspiciatis hic totam soluta ab dolor? Soluta unde voluptatibus illum error Lorem ipsum dolor sit amet consectetur adipisicing elit. Id incidunt distinctio ipsa perferendis animi eos nobis amet rem eveniet porro, inventore dolores! Incidunt blanditiis, possimus impedit quis id culpa natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum in, distinctio voluptatum labore odio mollitia numquam necessitatibus quibusdam dolorem, officiis libero ad dicta ullam asperiores veritatis quasi. Dolores, velit architecto!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint architecto quisquam maiores alias voluptate fugit ex, officia eligendi perspiciatis hic totam soluta ab dolor? Soluta unde voluptatibus illum error Lorem ipsum dolor sit amet consectetur adipisicing elit. Id incidunt distinctio ipsa perferendis animi eos nobis amet rem eveniet porro, inventore dolores! Incidunt blanditiis, possimus impedit quis id culpa natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum in, distinctio voluptatum labore odio mollitia numquam necessitatibus quibusdam dolorem, officiis libero ad dicta ullam asperiores veritatis quasi. Dolores, velit architecto!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint architecto quisquam maiores alias voluptate fugit ex, officia eligendi perspiciatis hic totam soluta ab dolor? Soluta unde voluptatibus illum error Lorem ipsum dolor sit amet consectetur adipisicing elit. Id incidunt distinctio ipsa perferendis animi eos nobis amet rem eveniet porro, inventore dolores! Incidunt blanditiis, possimus impedit quis id culpa natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum in, distinctio voluptatum labore odio mollitia numquam necessitatibus quibusdam dolorem, officiis libero ad dicta ullam asperiores veritatis quasi. Dolores, velit architecto!</p>
 </body>
 </html>

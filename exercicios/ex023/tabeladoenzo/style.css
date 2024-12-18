@@ -28,10 +28,15 @@ main {
         width: 1100px;
         height: 600px;
         padding-bottom: 20px;
+        position: relative;
     }
     & tr{
         
-    }    
+    }   
+    & th{
+        top: -1px;
+        background-color: grey;
+    } 
     & td{
         border: 1px solid black;
         width: 20px;
